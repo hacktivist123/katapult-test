@@ -4,7 +4,9 @@ id: introduction
 description: 'Katapult Take Home test Solution'
 ---
 
-This documentation site serves as my submission for the Katapult take-home test. I chose to present my findings and tutorial in a documentation format to demonstrate my ability to create clear, accessible technical content.
+This documentation site serves as my submission for the Katapult take-home test.
+I chose to present my analysis and tutorial in a documentation format to
+demonstrate my ability to create clear, accessible technical content.
 
 ### Technology Stack
 
@@ -36,7 +38,9 @@ To view my take-home test submission:
 
 ### Tutorial Code Repository
 
-The complete code for the Object Storage tutorial can be found in the `katapult-s3-demo` folder in this repository. This includes:
+The complete code for the Object Storage tutorial can be found in the
+`katapult-s3-demo` folder in
+[this repository](https://github.com/hacktivist123/katapult-test). This includes:
 
 - The Go application demonstrating S3 compatibility
 - Environment configuration files

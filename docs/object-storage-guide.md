@@ -5,18 +5,23 @@ sidebar_label: 'S3 Compatibility with Katapult Object Storage'
 description: 'Learn how to leverage S3 compatibility in Katapult Object Storage using Go. A practical guide to using standard S3 tools and libraries with Katapult.'
 ---
 
-This guide demonstrates how to use [Katapult's S3-compatible Object Storage service](https://katapult.io/products/object-storage/) with Go. You'll learn how to:
+This guide demonstrates how to use [Katapult's S3-compatible Object Storage service](https://katapult.io/products/object-storage/)
+with Go. You'll learn how to:
 
 - Enable Katapult Object Storage
 - Create and manage buckets
 - Upload and manage objects using Go
 - Use standard S3-compatible libraries
 
-By the end of this tutorial, you'll have a working Go application that can interact with Katapult Object Storage using standard S3 protocols.
+By the end of this tutorial, you'll have a working Go application that can interact
+with Katapult Object Storage using standard S3 protocols.
 
 ## What is S3 Compatibility?
 
-S3 (Simple Storage Service) compatibility means that Katapult Object Storage implements the same API and protocols as Amazon S3. This allows you to use any S3-compatible tool, library, or application with Katapult Object Storage without modification.
+S3 (Simple Storage Service) compatibility means that Katapult Object Storage
+implements the same API and protocols as Amazon S3. This allows you to use any
+S3-compatible tool, library, or application
+with Katapult Object Storage without modification.
 
 ## Prerequisites
 
@@ -70,6 +75,8 @@ go get github.com/joho/godotenv
 ### 3. Create the Main Application
 
 Create a file named `main.go`:
+
+ <!-- markdownlint-disable MD013 -->
 
 ```go
 package main
@@ -162,6 +169,8 @@ func main() {
 }
 ```
 
+ <!-- markdownlint-enable MD013 -->
+
 This code demonstrates a complete S3-compatible application that:
 
 1. Loads credentials from environment variables
@@ -200,7 +209,11 @@ After running the application, you can verify the upload in the Katapult web con
 
 ## Why Choose Katapult Object Storage?
 
-You've now seen how easy it is to use Katapult Object Storage with standard S3 tools. Katapult provides a reliable, high-performance storage solution that works seamlessly with your existing S3-compatible applications. Whether you're building new applications or migrating existing ones, Katapult's S3 compatibility ensures you can use the tools and libraries you're already familiar with.
+You've now seen how easy it is to use Katapult Object Storage with standard S3
+tools. Katapult provides a reliable, high-performance storage solution that
+ works seamlessly with your existing S3-compatible applications. Whether you're
+ building new applications or migrating existing ones, Katapult's S3 compatibility
+ ensures you can use the tools and libraries you're already familiar with.
 
 ## Resources
 
