@@ -7,7 +7,7 @@ const config: Config = {
   tagline: 'A Docusaurus Setup for Katapult Interview',
 
   url: 'https://katapult-test.github.io/',
-  baseUrl: '/',
+  baseUrl: '/katapult-test/',
 
   // GitHub pages deployment config.
   organizationName: 'hacktivist123',
