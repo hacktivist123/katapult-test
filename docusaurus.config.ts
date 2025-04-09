@@ -28,7 +28,9 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
+          sidebarCollapsed: true,
           routeBasePath: '/',
+          showLastUpdateTime: true,
         }
       } satisfies Preset.Options,
     ],
@@ -36,9 +38,42 @@ const config: Config = {
 
   themeConfig: {
     navbar: {
-      title: 'Katapult Test',
-      items: [],
+      title: 'Katapult Interview Test',
+      items: [
+        {
+          type: 'doc',
+          position: 'left',
+          docId: 'introduction',
+          label: 'Introduction',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'main',
+          position: 'left',
+          label: 'Take Home Test',
+        },
+      ],
     },
+
+    docs: {
+      sidebar: {
+        hideable: true,
+        autoCollapseCategories: true,
+      },
+    },
+
+    colorMode: {
+      defaultMode: 'dark',
+      disableSwitch: false,
+      respectPrefersColorScheme: true,
+    },
+
+    themes: ['@docusaurus/theme-mermaid'],
+
+    markdown: {
+      mermaid: true,
+    },
+
     footer: {
       style: 'dark',
       copyright: `Built with <a href="https://docusaurus.io/">Docusaurus</a>.`,
