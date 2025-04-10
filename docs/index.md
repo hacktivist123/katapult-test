@@ -26,6 +26,10 @@ The site follows a continuous deployment workflow:
 3. The site is hosted on GitHub Pages at [hactivist123.github.io/katapult-test](https://hactivist123.github.io/katapult-test/)
 4. There is also a QA workflow that runs to build Docusaurus whenever a PR is submitted
 
+### Hosted on Katapult
+
+This site is also hosted on katapult via [this link](https://katapult-test.uk-lon-1.katapultobjects.com/)
+
 ### Navigation
 
 To view my take-home test submission:
