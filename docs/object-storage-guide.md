@@ -53,6 +53,8 @@ with Katapult Object Storage without modification.
 
 ![Create Access Keys](../static/img/object-storage-tutorial/create-access-key.gif)
 
+![Get Access Keys](../static/img/object-storage-tutorial/get-access-key.png)
+
 ## Building the Application
 
 ### 1. Initialize the Project
